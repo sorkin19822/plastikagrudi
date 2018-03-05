@@ -2,6 +2,10 @@
 $white: #ffffff;
 $orange: #fb701d;
 $color-base:#47423b;
+p{
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
   padding: 0;
@@ -454,6 +458,8 @@ button {
 
 .implants-descr{
   margin-top: -20px;
+  color: $orange;
+  font-size: 18px;
 }
 .list-implants{
   margin-top: 30px;
@@ -479,8 +485,10 @@ button {
   background-size: contain;
 }
 .list-composition{
+  color: $orange;
   position: relative;
-  left: -150px;
+  left: -135px;
+  margin-bottom: 40px;
 }
 .my-divider-img {
   border-radius: 50%;
@@ -523,19 +531,19 @@ button {
 .my-divider-title2 h2{
   margin-left: 35%;
 }
-.mastopexy-title{
-  margin-bottom: 10px;
-}
-.mastopexy-podtitle1{
-  margin-top: -70px;
-  margin-left: 100px;
-}
+
 .mastopexy-podtitle2{
   margin-left: 100px;
-  margin-top: -20px;
 }
 .mastopexy-title>h2>span{
   margin-left: 100px;
+}
+.mastopexy-img-1{
+  margin-top: -55px;
+  margin-left: 45px;
+  position: relative;
+  opacity: 0.7;
+  z-index: 0;
 }
 .mastopexy-block-2, .work-block-2{
   margin-top: -25px;
@@ -548,12 +556,11 @@ button {
   position: absolute;
   content: '';
   background: url(../img/flower.jpg) no-repeat;
-  -webkit-background-size: contain;
   background-size: contain;
   width: 386px;
   height: 355px;
-  left: -45%;
-  bottom: -45%;
+  left: -29%;
+  bottom: -60%;
   z-index: -1;
 }
 .mastopexy-block-3:before{
@@ -564,23 +571,20 @@ button {
   background-size: contain;
   width: 450px;
   height: 355px;
-  left: -370px;
-  top: -100px;
+  left: -331px;
+  top: -56px;
   opacity: 1;
   z-index: 0;
 }
 .mastopexy-cover, .mastopexy-cover1{
   max-width: none;
   position: absolute;
-  left: 85%;
-  top: 53%;
+  left: 77%;
+  top: 23%;
   transform: translate(-50%,-50%);
   z-index: -1;
 }
-.mastopexy-cover1{
-  left: 83%;
-  top: 65%;
-}
+
 .mammoplastika-img:after{
   position: absolute;
   content: '';
@@ -698,6 +702,13 @@ button {
 
 .divider-left {
   margin-left: 5px;
+}
+.divider-left-text{
+  margin: 0 0 0 110px;
+}
+.divider-left-text-bottom{
+  font-size: 50px;
+  color: #fee0cd;
 }
 
 .divider-right {
