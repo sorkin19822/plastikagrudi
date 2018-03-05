@@ -1,0 +1,472 @@
+$font-mobile: 14px;
+@media screen and (max-width: 1365px){
+  .header{
+    margin-bottom: 15px;
+  }
+  .header-zagolovok{
+    text-align: center;
+  }
+  .header-zagolovok-bottom-text{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 20px;
+  }
+  .header-zagolovok-avg{
+    font-size: 20px;
+  }
+  .header-zagolovok-avg>div{
+    max-width: 425px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+  }
+  .header-zagolovok-top1-text{
+    font-size: 54px;
+  }
+  .header-zagolovok-top2-text{
+    padding-left: 0px;
+    font-size: 70px;
+  }
+  .out{
+    margin-top: -100px;
+  }
+  .my-slider {
+    margin-left: -150px;
+  }
+  .top-circle-int.my-slider {
+    height: 465px;
+    width: 465px;
+  }
+}
+
+@media screen and (max-width: 1199px){
+  .mastopexy-block-3:before{
+    display: none;
+  }
+  .mammo-bukvica-r:after{
+    left: -35px;
+    top: 0px;
+  }
+  .wrap-contacts:after{
+    top: 70px;
+  }
+  .bukva-bg-fon{
+    top: -35px;
+  }
+  .bukva-bg-wrap:after{
+    right: -100px;
+  }
+  .map {
+    margin-top: -200px;}
+
+  .side-4-img image{
+    margin-bottom: 0px;
+  }
+  .reabilitaciya-bg{
+    margin-top: 0px;
+  }
+  .header-zagolovok-bottom-text{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  .header-zagolovok-top1-text{
+    font-size: 54px;
+    line-height: 54px;
+  }
+  .header-zagolovok-bottom-text{
+    margin-top: 0px;
+  }
+
+  .right2-img{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 959px){
+  header {
+    height: 1250px;
+    background: url(../img/bg_header_mobile.jpg) no-repeat;
+    background-size: cover;
+
+  }
+  .second{
+    margin-top: -100px;
+    border: none;
+  }
+  .mammo-bukvica-r:after {
+    left: 0;
+    top: 145px;
+    right: 0;
+    margin: auto;
+    opacity: 0.7;
+  }
+.block-header-contact-grafik img, .block-header-contact-numbers img, .block-header-contact-place img {
+  height: 40px;
+}
+  .background-rose:after,.side-1:before,.side-4-text:after, .mammoplastika-img:after,
+  .reabilitaciya-bg:after,.reabilitaciya-bukvica-h:after,.list-implants:before,.list-implants:after,
+  .wrap-contacts:after, .portfolio-bg:after, .out:before, .out:after{
+    display: none;
+  }
+  .background-rose{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .background-rose>section{
+    background: url(../img/backgroundrose-mobile.jpg) no-repeat;
+  }
+  .my-divider{
+    position: relative;
+    z-index: 1;
+  }
+  .izbavim-block-2{
+    padding: 0 10px;
+    margin-top: -20px;
+  }
+  .izbavim-block-mobile-1>div{
+    margin-top: 0px;
+    margin: auto;
+  }
+  .side-1-descr{
+    margin-top: 20px;
+    text-align: justify;
+  }
+  .side-1-citata{
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .side-1-citata:before {
+    position: absolute;
+    content: '';
+    background: url(../img/m.svg) no-repeat;
+    background-size: 100% 100%;
+    width: 425px;
+    height: 388px;
+    left: 12%;
+    top: -15px;
+    opacity: .4;
+    z-index: -1;
+  }
+  .list-composition{
+    left: 0px;
+  }
+
+.kogda-nugna-block-1>div, .contacts-block-1>div, .podgotovka-block-1>div, .reabilitaciya-block-1>div{
+  float: left;
+}
+  .mastopexy-block-2{
+    margin-top: -90px!important;
+    padding: 0 10px;
+  }
+  .dream:after {
+    top: -114px;
+    left: 190px;
+  }
+.reabilitaciya-block-2{
+    margin-top: 0px!important;
+  }
+  .podgotovka-block-text{
+    padding: 0 10px;
+  }
+  .reabilitaciya-bg {
+    margin-top: 30px;
+  }
+  .kak-delaem-block-text, .reabilitaciya-bukvica-h{
+    padding: 0 10px!important;
+  }
+
+  .block-contacts{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .map{
+    margin-top: 0;
+    height: 350px;
+  }
+  .block-contacts:after {
+    background-size: 100% 100%;
+    width: 29%;
+    height: 47%;
+    top: 3%;
+    left: 33%;
+    z-index: -1;
+  }
+  .raspisanie>ul{
+    width: auto;
+    margin-left: auto;
+  }
+  .block-footer-contact-places>div{
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .footer-rose:after{
+    display: none;
+  }
+  .my-divider-img, .header-zagolovok-circle, .reabilitaciya-bg:before,.mastopexy-block-3:after{
+    display: none;
+  }
+  section{
+    overflow: hidden;
+    padding-top: 21px;
+  }
+  .list-composition:before{
+    position: absolute;
+    content: '';
+    background: url(../img/cherry.png) no-repeat;
+    width: 359px;
+    height: 351px;
+    right: -132px;
+    top: 25%;
+    -webkit-background-size: contain;
+    background-size: contain;
+  }
+  .list-composition:after{
+    position: absolute;
+    content: '';
+    background: url(../img/fialka2.png) no-repeat;
+    background-size: contain;
+    width: 183px;
+    height: 192px;
+    top: -70px;
+    left: 95px
+  }
+  .mastopexy-title{
+    padding-top: 90px;
+  }
+  .mastopexy-title>h2{
+    margin-left: 0px;
+  }
+  .mastopexy-title>h2>span{
+    margin-left: 0px;
+  }
+  .mastopexy-cover1{
+    display: block;
+    position: unset;
+    transform: unset;
+    margin: 10px 10px 20px 10px!important;
+    padding: 0px!important;
+  }
+  .mastopexy-body{
+    overflow: hidden;
+    margin-top: 0px!important;
+  }
+  .mastopexy-block-3>br{display: none}
+
+
+}
+
+@media screen and (max-width: 639px){
+  .list-composition:before{
+    right: -270px;
+  }
+  .list-composition:after{
+    left: -55px
+  }
+
+  .my-divider{
+    width: 65px;
+    height: 65px;
+  }
+  .my-divider-cnt, .my-divider-cnt-right{
+    font-size: 40px;
+  }
+  p, .marker-rose, .marker-rose1{
+    font-size: $font-mobile;
+  }
+
+  header {
+    height: 1030px;
+  }
+  .header-zagolovok, .header-zagolovok-bottom-text{
+    margin: auto;
+    padding: 0;
+  }
+.header-zagolovok-bottom-text{
+  max-width: 300px;
+  padding-left: 4px;
+  margin-left: 4px;
+}
+  .header-zagolovok-bottom-text br{
+    display: none;
+  }
+  .header-zagolovok-top1-text {
+    font-size: 40px;
+    line-height: 40px;
+    padding-left: 0;
+  }
+  .header-zagolovok-top2-text {
+    padding-left: 0;
+    font-size: 55px;
+    line-height: 55px;
+  }
+  .out{
+    width: 100%;
+    &:before{
+      display: none;
+    }
+    &:after{
+      display: none;
+    }
+  }
+  .top-circle-out{
+    width: 372px;
+    height: 372px;
+  }
+  .top-circle-int{
+    width: 366px;
+    height: 366px;
+    margin-top: 0px;
+  }
+  .top-circle-int>img{
+    width: 75px;
+    margin-top: 20px;
+  }
+  .block-akciya{
+    font-size: 25px;
+  }
+  .block-akciya-nasvanye {
+    font-size: 30px;
+  }
+  .block-akciya-xxxx {
+    font-size: 35px;
+    margin-top: 0px;
+    margin-left: 0;
+    display: block;
+  }
+  .block-akciya-xxxx2{
+    margin-right:0;
+    margin-top:-5px;
+  }
+  .block-akciya-skidka {
+    font-size: 65px;
+    margin-top: -17px;
+    display: block;
+    height: 65px;
+    line-height: 65px;
+  }
+  .side-1 h2, .side-2 h2, .side-3 h2, .side-4 h2{
+    font-size: 24px;
+  }
+  .side-2 .h2-second, .side .h2-second{
+    font-size: 30px;
+  }
+
+  .side-1-citata{
+    margin-left: 0;
+    background-size: 39px 38px;
+    background-position-x: 5px;
+    padding-left: 40px;
+    font-size: $font-mobile;
+  }
+  .side-1-citata:before {
+
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    top: auto;
+    bottom: 0;
+  }
+  .top-circle-int.my-slider {
+    height: 265px;
+    width: 265px;
+  }
+  .bukva-a:before, .marker-rose:after{
+    display: none;
+  }
+
+  .marker-rose{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .marker-rose-title{
+    text-align: center;
+  }
+  .kogda-nugna-block-1, .podgotovka-block-1, .reabilitaciya-block-1, .contacts-block-1{
+    padding-left: 10px;
+  }
+  .podgotovka-wrap-form{
+    margin-left: 10px;
+  }
+  .side-4-img{
+    padding-left: 0px;
+  }
+  .side-4-img img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 260px!important;
+    height: 160px!important;
+  }
+
+  .divider-fon,.divider-fon .my-divider-cnt:after{
+    background-color: #fb701d;
+  }
+  .background-rose>section{
+    background-image: none;
+  }
+  .my-divider-cnt{
+    color: #fff!important;
+  }
+  .side-2 .h2-first{
+    color: #fb701d;
+  }
+  .kam-delaem-title.h2-second{
+    color: #fb701d;
+    opacity: 0.3;
+  }
+  .kak-delaem-block-text{
+    color: #47423b;
+    margin-bottom: 85px!important;
+  }
+
+  .kak-delaem-block-text:after {
+    left: 0;
+    right: 0;
+    position: absolute;
+    content: '';
+    background: url(../img/two-rose.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100%;
+    width: 155px;
+    height: 235px;
+    margin: auto;
+  }
+
+  .operaciya-form{
+    margin-left: 10px;
+  }
+  .reabilitaciya-bg{
+    padding-bottom: 18px;
+  }
+  .reabilitaciya2-image-mobile{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .reabilitaciya-bukvica-h:after {
+    position: absolute;
+    content: '';
+    background: url(../img/rose5.png) no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    left: -82px;
+    margin: auto;
+    z-index: 1;
+    opacity: 1;
+    bottom: -60px;
+    display: block;
+  }
+  .contacts-block-2{
+    margin-top: 0px!important;
+  }
+
+}
+
+

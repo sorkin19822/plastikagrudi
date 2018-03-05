@@ -1,0 +1,147 @@
+$orange:#fb701d;
+.fields-coll{
+  width: 220px;
+  margin: 30px auto auto auto;
+}
+.my-field-form{
+  position: relative;
+  height: 60px;
+  margin: 20px 0;
+}
+
+.contactForm1 div{
+  padding: 0;
+  margin: 20px auto!important;
+}
+
+.error{
+  position: absolute;
+  top: -27px;
+  font-size: 14px;
+  height: 16px;
+  line-height: 16px;
+}
+
+.uk-lightbox.uk-open{
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.80);
+}
+.lechenie-onConsult input{
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 13px;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: $orange; }
+
+input.lechenie-onConsult-odd {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-right: none;
+}
+
+input.lechenie-onConsult-even {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-left: none; }
+
+.lechenie-onConsult input::placeholder {
+  color: white !important;
+  background-color: $orange;
+  text-align: left;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px; }
+
+.lechenie-onConsult .submit{
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: none;
+  color: #47423b;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: -12px 0 10px -35px;
+  cursor: pointer;
+  width: 220px;
+  box-shadow: 3px 0px 12px 0px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  position: relative;
+}
+
+.lechenie-onConsult submit:hover{
+  box-shadow: 3px 0px 7px 0px rgba(0, 0, 0, 0.35);
+}
+
+.lechenie-onConsult INPUT{
+        background-color: $orange;
+        color: #fff!important;
+      border-color: #f29e79;
+}
+.lechenie-onConsult INPUT:focus{
+  background-color: $orange;
+  border-color: #f29e79;
+}
+
+.contactForm1>div{
+  position: relative;
+}
+.uk-input:focus{
+  border-color: #b6b5b5;
+}
+#modal-center{
+  legend, p{
+    text-align: center;
+  }
+}
+.onConsult input, .onConsult1 input {
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 13px;
+  background-color: rgba(255,255,255,.64);
+  border-color: #b6b5b5;
+}
+
+input.onConsult-odd {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-right: none;
+}
+.onConsult-odd:before{
+  position: absolute;
+  content: '1111';
+  top: -5px;
+  right: 0;
+  height: 10px;
+  width: 20%;
+  background: -webkit-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,.8) 20%,#fff 40%,#fff);
+  background: -ms-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,.8) 20%,#fff 40%,#fff);
+  background: -moz-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,.8) 20%,#fff 40%,#fff);
+  background: linear-gradient("to left", rgba(255, 255, 255, 0), rgba(255, 255, 255, .8) 20%, #fff 40%, #fff);
+}
+
+input.onConsult-even {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-left: none;
+}
+.uk-drawline-left {
+  position: absolute;
+}
+.uk-drawline-right {
+  position: absolute;
+  transform: rotate(180deg);
+}
+@media screen and (max-width: 1199px) {
+  .contactForm1 {
+    display: block;
+    div {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 300px;
+      padding-left: 0px;
+    }
+  }
+}
+
