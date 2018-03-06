@@ -512,18 +512,6 @@ button {
   text-align: center;
   padding-left: 0px;
 }
-.mammo-bukvica-r:after{
-  position: absolute;
-  content: '';
-  background: url(../img/r.svg) no-repeat;
-  -webkit-background-size: contain;
-  background-size: contain;
-  width: 324px;
-  height: 324px;
-  left: -190px;
-  bottom: -200px;
-  z-index: -2;
-}
 .my-divider-title2{
   position: relative;
   margin-top: -95px;
@@ -540,7 +528,7 @@ button {
 }
 .mastopexy-img-1{
   margin-top: -55px;
-  margin-left: 45px;
+  margin-left: 40px;
   position: relative;
   opacity: 0.7;
   z-index: 0;
@@ -580,11 +568,33 @@ button {
   max-width: none;
   position: absolute;
   left: 77%;
-  top: 23%;
+  top: 195px;
   transform: translate(-50%,-50%);
   z-index: -1;
 }
-
+.mastopexy-list{
+  padding-left: 15%;
+}
+.mastopexy-form{
+  position: relative;
+  top:100px;
+  margin-bottom: 140px;
+}
+#item-3{
+  margin-left: 30%;
+}
+.bukva-r:before {
+  position: absolute;
+  content: '';
+  background: url(../img/r.svg) no-repeat;
+  background-size: contain;
+  width: 327px;
+  height: 327px;
+  top: -75px;
+  left: -500px;
+  opacity: .4;
+  z-index: -1;
+}
 .mammoplastika-img:after{
   position: absolute;
   content: '';
@@ -592,7 +602,7 @@ button {
   background-size: contain;
   width: 251px;
   height: 201px;
-  left: -285px;
+  left: -100px;
   right: 0px;
   opacity: 1;
   z-index: 1;
@@ -605,13 +615,14 @@ button {
   background-size: contain;
   width: 300px;
   height: 255px;
-  right: -220px;
+  right: -100px;
   opacity: 1;
   z-index: -1;
   bottom: -30px;
 }
 .list-mammoplastika ul{
   max-width: 90%;
+  left: 25px;
 }
 .list-mammoplastika:after{
   position: absolute;
@@ -620,14 +631,16 @@ button {
   background-size: contain;
   width: 266px;
   height: 229px;
-  left: -100px;
+  left: -230px;
   right: 0;
   opacity: 1;
   z-index: 1;
-  top: 30px;
+  top: 8px;
 }
 .list-mammoplastika{
   margin-bottom: 40px;
+  margin-left: 200px!important;
+  max-width: 760px;
 }
 .list-mammoplastika:before{
   position: absolute;
@@ -636,24 +649,13 @@ button {
   background-size: contain;
   width: 102px;
   height: 92px;
-  right: 175px;
+  right: 30px;
   opacity: 1;
   z-index: 1;
   top: 105px;
 }
-.list-mammoplastika:before{
-  position: absolute;
-  content: '';
-  background: url(../img/petal.jpg) no-repeat;
-  background-size: contain;
-  width: 102px;
-  height: 92px;
-  right: 175px;
-  opacity: 1;
-  z-index: 1;
-  top: 105px;
-}
-.wrap-mammoplastika:after{
+
+.mammoplastika-list-body:after{
   position: absolute;
   content: '';
   background: url(../img/petal1.jpg) no-repeat;
@@ -665,7 +667,7 @@ button {
   z-index: 2;
   bottom: -155px;
 }
-.wrap-mammoplastika:before{
+.mammoplastika-list-body:before{
   position: absolute;
   content: '';
   background: url(../img/petal1.jpg) no-repeat;
@@ -817,49 +819,7 @@ button {
   right: -40%;
 }
 
-.background-rose {
-  padding-top: 140px;
-  padding-bottom: 140px;
-  z-index: -2;
-}
 
-.background-rose:after {
-  position: absolute;
-  content: '';
-  background: url(../img/backgroundrose.jpg) no-repeat;
-  width: 1920px;
-  height: 1093px;
-  left: 0px;
-  top: -89px;
-  z-index: -1;
-  -webkit-background-size: contain;
-  background-size: 1920px 1093px;
-}
-.reabilitaciya-bg{
-  margin-top: 150px;
-}
-.reabilitaciya-bg:before {
-  position: absolute;
-  content: '';
-  background: url(../img/rose4.png) no-repeat;
-  width: 407px;
-  height: 284px;
-  right: -431px;
-  top: -242px;
-}
-
-.reabilitaciya-bg:after {
-  position: absolute;
-  content: '';
-  background: url(../img/r.svg) no-repeat;
-  background-size: 78%;
-  width: 469px;
-  height: 390px;
-  top: -15%;
-  left: -20%;
-  z-index: -1;
-  opacity: 0.4;
-}
 
 .reabilitaciya-bg-bottom:after {
   position: absolute;
