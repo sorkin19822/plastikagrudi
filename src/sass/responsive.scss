@@ -4,7 +4,7 @@ $font-mobile: 14px;
     margin-bottom: 15px;
   }
   .header-zagolovok{
-    text-align: center;
+    max-width: 360px;
   }
   .header-zagolovok-bottom-text{
     max-width: 400px;
@@ -42,6 +42,11 @@ $font-mobile: 14px;
 }
 
 @media screen and (max-width: 1199px){
+  .side-1, .side-2, .side-3, .side-4{
+    padding-left:  10px;
+    padding-right:  10px;
+  ;
+  }
   .mastopexy-cover{
     top: 190px;
   }
@@ -51,9 +56,6 @@ $font-mobile: 14px;
   }
   .wrap-contacts:after{
     top: 70px;
-  }
-  .bukva-bg-fon{
-    top: -35px;
   }
   .bukva-bg-wrap:after{
     right: -100px;
@@ -84,6 +86,9 @@ $font-mobile: 14px;
   .right2-img{
     display: none;
   }
+  .mastopexy-block-3:after{
+    opacity: .7;
+  }
 }
 
 @media screen and (max-width: 959px){
@@ -96,6 +101,9 @@ $font-mobile: 14px;
   .second{
     margin-top: -100px;
     border: none;
+    p,span{
+      padding-right: 10px;
+    }
   }
   .mammo-bukvica-r:after {
     left: 0;
@@ -211,7 +219,6 @@ $font-mobile: 14px;
     display: none;
   }
   section{
-    overflow: hidden;
     padding-top: 21px;
   }
   .list-composition:before{
@@ -235,6 +242,9 @@ $font-mobile: 14px;
     top: -70px;
     left: 95px
   }
+  .mastopexy-form{
+    position: unset;
+  }
   .mastopexy-title{
     padding-top: 90px;
   }
@@ -255,8 +265,10 @@ $font-mobile: 14px;
     overflow: hidden;
     margin-top: 0px!important;
   }
-  .mastopexy-block-3>br{display: none}
-
+  .mastopexy-block-3>br, .mastopexy-block-3:before, .mastopexy-cover{display: none}
+  .mastopexy-block-3{
+    padding-top: 0px;
+  }
 
 }
 
