@@ -416,8 +416,9 @@
         <div class="side-2">
 
             <div uk-grid class="uk-flex">
-
-                <img src="img/breast_bg1.jpg" class="uk-align-center uk-hidden@m" style="min-width:100%">
+                <div class="uk-width-1-1 uk-hidden@m">
+                <img src="img/breast_bg1.jpg" style="width: 80%" class="uk-align-center">
+                </div>
             <div class="uk-width-1-2@s uk-hidden@m">
                 <img src="img/breast.jpg" class="uk-align-center">
             </div>
@@ -496,7 +497,10 @@
                         маммопластика или по-другому, пластическая операция по уменьшению груди.
                     </span>
                 </div>
-                <div class="uk-width-1-1 mammoplastika-img uk-position-relative uk-margin-small"><img src="img/mammoplastika_img.png" class="uk-align-center"></div>
+                <div class="uk-width-1-1 mammoplastika-img uk-position-relative uk-margin-small">
+                    <img src="img/mammoplastika_img.png" class="uk-align-center uk-visible@s">
+                    <img src="img/mammoplastika_img.jpg" class="uk-align-center uk-hidden@s">
+                </div>
                 <div class="uk-width-1-1 mammoplastika-list-body uk-margin-remove uk-position-relative"></div>
                 <div class="uk-width-1-1 uk-position-relative list-mammoplastika uk-margin-auto">
                     <p class="uk-margin-remove-bottom uk-text-bold marker-rose-title">Редукционная маммопластика показана, если у пациентки присутствует:</p>
@@ -509,6 +513,9 @@
                         <li>лишний вес</li>
                         <li>проблемы дыхательной системы</li>
                     </ul>
+                    <div class="uk-hidden@s">
+                        <img src="img/tape.jpg" style="max-width: 80%" class="uk-align-center">
+                    </div>
                 </div>
                 <div class="uk-width-1-1 uk-grid-margin uk-first-column protivopokasaniya-wrap-form">
                     <form class="onConsult1 no-popup-form-bottom">
@@ -540,10 +547,10 @@
     </section>
 
     <section class="side-4" uk-grid>
-
+        <div class="bukva-h uk-position-relative uk-padding-remove-left"></div>
         <div class="uk-width-1-3 work-block-1">
             <div class="my-divider uk-flex uk-flex-right  uk-flex-middle" id="item-4">
-                <div class="bukva-h uk-position-relative"></div>
+
                 <img src="img/bukva-bg.jpg" class="bukva-bg-fon">
                 <img src="img/twig1.jpg" class="twig1-bg-fon">
                 <span class="my-divider-cnt-right divider-right">04</span>
@@ -555,17 +562,17 @@
                 наши
             </h2>
             <h2 class="uk-text-uppercase uk-text-bold h2-second">
-                <span class="mastopexy-podtitle1" style="padding-left: 50px">работы</span>
+                <span class="mastopexy-podtitle1" style="">работы</span>
             </h2>
         </div>
-        <div class="uk-width-1-2@m">
+        <div class="uk-width-1-2@m uk-padding-remove-left">
             <h3 class="uk-text-uppercase uk-text-center uk-text-bold">увеличение груди</h3>
             <div id='container1' class='twentytwenty-container uk-margin-auto' style="max-width: 428px">
                 <img src='img/1before.jpg'>
                 <img src='img/1after.jpg'>
             </div>
         </div>
-        <div class="uk-width-1-2@m">
+        <div class="uk-width-1-2@m uk-padding-remove-left">
             <h3 class="uk-text-uppercase uk-text-center uk-text-bold">увеличение груди</h3>
             <div id='container2' class='twentytwenty-container uk-margin-auto'  style="max-width: 428px">
                 <img src='img/2before.jpg'>
@@ -573,14 +580,14 @@
             </div>
         </div>
 
-        <div class="uk-width-1-2@m">
+        <div class="uk-width-1-2@m uk-padding-remove-left">
             <h3 class="uk-text-uppercase uk-text-center uk-text-bold">увеличение груди</h3>
             <div id='container3' class='twentytwenty-container uk-margin-auto' style="max-width: 428px">
                 <img src='img/3before.jpg'>
                 <img src='img/3after.jpg'>
             </div>
         </div>
-        <div class="uk-width-1-2@m">
+        <div class="uk-width-1-2@m uk-padding-remove-left">
             <h3 class="uk-text-uppercase uk-text-center uk-text-bold">увеличение груди</h3>
             <div id='container4' class='twentytwenty-container uk-margin-auto'  style="max-width: 428px">
                 <img src='img/4before.jpg'>
@@ -588,14 +595,14 @@
             </div>
         </div>
 
-        <div class="uk-width-1-2@m">
+        <div class="uk-width-1-2@m uk-padding-remove-left">
             <h3 class="uk-text-uppercase uk-text-center uk-text-bold">подтяжка груди</h3>
             <div id='container5' class='twentytwenty-container uk-margin-auto' style="max-width: 428px">
                 <img src='img/5before.jpg'>
                 <img src='img/5after.jpg'>
             </div>
         </div>
-        <div class="uk-width-1-2@m">
+        <div class="uk-width-1-2@m uk-padding-remove-left">
             <h3 class="uk-text-uppercase uk-text-center uk-text-bold">уменьшение груди</h3>
             <div id='container6' class='twentytwenty-container uk-margin-auto'  style="max-width: 428px">
                 <img src='img/6before.jpg'>
@@ -603,7 +610,7 @@
             </div>
         </div>
 <div class="uk-width-1-1 portfolio-bg1 uk-position-relative"></div>
-           <div class="uk-width-1-1 uk-margin-remove-top uk-visible@m">
+           <div class="uk-width-1-1 uk-margin-remove-top uk-visible@m" style="z-index: 2">
             <form class="onConsult1 no-popup-form-bottom">
                 <fieldset class="uk-fieldset">
                     <div uk-grid="" class="uk-grid contactForm1">

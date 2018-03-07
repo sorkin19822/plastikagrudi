@@ -179,6 +179,7 @@ span.timeWorkDays {
 .contact li :last-child {
   margin-top: 14px;
 }
+.raspisanie{}
 
 .mybutton {
   width: 152px;
@@ -652,7 +653,7 @@ button {
   height: 92px;
   right: 30px;
   opacity: 1;
-  z-index: 1;
+  z-index: 0;
   top: 105px;
 }
 
@@ -1096,6 +1097,7 @@ h2.h2-title{
 
 #item-4{
   margin-top: 20px;
+  margin-left: -20px;
 }
 
   .bukva-h:after {
@@ -1105,8 +1107,8 @@ h2.h2-title{
     background-size: contain;
     width: 469px;
     height: 360px;
-    top: -220px;
-    left: 60px;
+    top: -120px;
+    left: 110px;
     z-index: -1;
     opacity: .4;
   }
