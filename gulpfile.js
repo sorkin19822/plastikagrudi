@@ -22,10 +22,10 @@ var gulp = require('gulp'),
     concatJs = require('gulp-concat');
 
 gulp.task('scriptsJs', function() {
-    return gulp.src(['./src/js/jquery.inputmask.bundle.min.js', './src/js/jquery.time-to.min.js', './src/js/jquery.event.move.js', './src/js/jquery.twentytwenty.js', './src/js/script.js'])
+    return gulp.src([ './src/js/jquery.event.move.js', './src/js/jquery.twentytwenty.js', './src/js/jquery.time-to.min.js', './src/js/jquery.inputmask.bundle.min.js', './src/js/script.js'])
         .pipe(sourcemaps.init())
         .pipe(concatJs('all.js'))
-        /*.pipe(uglify())*/
+        .pipe(uglify())
         // .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('./js/'));
 });

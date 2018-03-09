@@ -26,8 +26,9 @@ $font-mobile: 14px;
     font-size: 54px;
   }
   .header-zagolovok-top2-text{
-    padding-left: 0px;
-    font-size: 70px;
+    padding-left: 70px;
+    font-size: 55px;
+    line-height: 55px;
   }
   .out{
     margin-top: -100px;
@@ -95,8 +96,8 @@ $font-mobile: 14px;
   header {
     height: 1250px;
     background: url(../img/bg_header_mobile.jpg) no-repeat;
-    background-size: cover;
-
+    background-size: auto 100%;
+    background-position: 50%;
   }
   .second{
     margin-top: -100px;
@@ -190,7 +191,7 @@ $font-mobile: 14px;
   }
 
   .block-contacts{
-    margin-top: 25px;
+    margin-top: 0px;
     margin-bottom: 25px;
   }
   .map{
@@ -292,9 +293,18 @@ $font-mobile: 14px;
   .mastopexy-podtitle2{
     margin-left: 0px;
   }
+  .list-mammoplastika{
+    margin-bottom: 0px;
+  }
+  .wrap-mammoplastika .protivopokasaniya-wrap-form{
+    margin-top: 0px;
+  }
 }
 
 @media screen and (max-width: 639px){
+  .mastopexy-title-wrap{
+    margin-top: 25px;
+  }
   .list-composition:before{
     right: -270px;
   }
@@ -318,10 +328,8 @@ $font-mobile: 14px;
   .wrap-mammoplastika>div{
     padding-left: 0px;
   }
-
-
   header {
-    height: 1030px;
+    height: 960px;
   }
   .header-zagolovok, .header-zagolovok-bottom-text{
     margin: auto;
@@ -341,9 +349,7 @@ $font-mobile: 14px;
     padding-left: 0;
   }
   .header-zagolovok-top2-text {
-    padding-left: 0;
-    font-size: 55px;
-    line-height: 55px;
+
   }
   .out{
     width: 100%;
@@ -522,7 +528,7 @@ $font-mobile: 14px;
   .side-1, .side-2, .side-3, .side-4{
     padding-left: 5px;
   }
-  .mastopexy-form .contactForm1{
+  .contactForm1{
     margin: 0;
     padding: 0;
   }
@@ -561,11 +567,15 @@ $font-mobile: 14px;
     top: -10px;
     left: 40%;
   }
-  .mastopexy-form{
+  .mastopexy-form, .protivopokasaniya-wrap-form{
     margin-bottom: 0;
   }
   .side-3{
     margin-top: 0;
+  }
+  body{
+    min-width: 320px;
+    overflow: auto;
   }
 }
 
