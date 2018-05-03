@@ -301,7 +301,8 @@ button {
   font-size: 50px;
   margin-right: -42%;
   display: block;
-  margin-top: -15px;
+  margin-top: 10px;
+  margin-bottom: -15px;
 }
 .block-akciya-end{
   color: #47423b;
@@ -795,7 +796,15 @@ button {
 }
 
 .marker-rose, .marker-rose1 {
-  list-style-image: url(../img/marker.jpg);
+  list-style: none;
+  /*list-style-image: url(../img/marker.jpg);*/
+}
+.marker-rose li, .marker-rose1 li{
+  background: url(../img/marker.jpg) no-repeat center left;
+  margin-top: 15px;
+  height: 21px;
+  padding-left: 35px;
+  line-height: 13px;
 }
 .marker-rose span{
   vertical-align: 7px;
@@ -1157,4 +1166,10 @@ h2.h2-title{
   top: -110px;
   right: -85px;
   z-index: 0;
+}
+summary{
+  outline:none;
+}
+details[open] h3{
+font-size: 16px;
 }
